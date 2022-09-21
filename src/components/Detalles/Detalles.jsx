@@ -23,7 +23,7 @@ export const Detalles = () => {
             <h2 className='m-2 text-center fw-bold'>DETALLE DE PERSONAJE</h2>
         </div>
     </div>
-    <div className='container m-auto mt-5 mb-5 p-5'>
+    <div className='container-fluid m-auto mt-5 mb-5 p-5'>
         {detalle != null ? (
             <div className='row'>
                 <div className='col-md-4 d-flex justify-content-center'>

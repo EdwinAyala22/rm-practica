@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export const CardApp = ({imageSrc, title, url}) => {
   return (
-    <Card style={{ width: "14rem" }} className="m-5 text-center cardApp shadow">
+    <Card style={{ width: "14rem" }} className="m-3 text-center cardApp shadow">
       <Card.Img variant="top" src={imageSrc} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>

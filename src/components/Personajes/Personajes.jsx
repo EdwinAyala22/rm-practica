@@ -14,7 +14,7 @@ export const Personajes = () => {
   return (
     <>
     <h1 className='fw-bold m-5 text-center'>PERSONAJES</h1>
-    <div className='container d-flex flex-wrap'>
+    <div className='container d-flex justify-content-center flex-wrap'>
         {personajes != null ? (
             personajes.map(personaje =>(
                 
